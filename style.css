@@ -31,6 +31,7 @@ p {
 
 img {
     padding-left: 70px;
+    padding-right: 70px;
 }
 
 li {
@@ -91,7 +92,6 @@ li {
 
 .header img {
     position: absolute;
-    width:80px;
     height:80px;
     bottom: 40px;
     left: 0px;
@@ -104,6 +104,7 @@ li {
     flex-wrap: wrap;
     padding: 0;
     margin: 0;
+    z-index:100;
 }
 
 #menu li {
@@ -175,4 +176,9 @@ footer {
         padding:0; 
         margin-right:10px;
         margin-left:20px;
+    }
+
+.img-slideshow-container {
+    margin-right:55px;
+    margin-left:55px;
     }
